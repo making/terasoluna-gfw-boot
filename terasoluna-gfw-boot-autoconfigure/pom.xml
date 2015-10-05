@@ -30,6 +30,12 @@
             <version>${terasoluna-gfw.version}</version>
         </dependency>
         <dependency>
+            <groupId>org.terasoluna.gfw</groupId>
+            <artifactId>terasoluna-gfw-jodatime</artifactId>
+            <version>${terasoluna-gfw.version}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <version>${spring-boot.version}</version>
